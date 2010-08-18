@@ -3,6 +3,17 @@
 This library is a simple wrapper to the beautiful syntax of Ruby.
 PHPit! drew inspiration from [Prototype Javascript Library](www.prototypejs.com) which ported Ruby's Enumerable functions to Javascript.
 
+# `RArray`
+
+## Methods
+### `visualize()`
+Returns a string representation of the `RArray` object. It is a recursive function.
+
+### `inspect()`
+Alias for `visualize()`
+
+
+
 # Requirements
 
 * PHP > 5.3.0

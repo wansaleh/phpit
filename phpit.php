@@ -40,6 +40,7 @@ class RArray extends ArrayObject {
     }
     return "array(" . join(", ", $output) . ")";
   }
+  public function inspect() { return $this->visualize(); }
 
   public function get($index) {
     return $this[$index];
