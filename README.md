@@ -6,6 +6,7 @@ PHPit! drew inspiration from [Prototype Javascript Library](www.prototypejs.com)
 # Requirements
 
 * PHP > 5.3.0
+
 PHP 5.3.0 introduces the lambda style (anonymous) function to be used as a parameter of another function. PHPit! exploits this new feature to port the Enumerable methods in Ruby to PHP.
 
 # Discaimer
