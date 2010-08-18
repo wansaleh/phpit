@@ -135,18 +135,17 @@ class RArray extends ArrayObject {
     }
     return $results;
   }
+
   public function map($iterator = null) { return $this->collect($iterator); }
 
   public function detect($iterator) {
-    $result = null;
     foreach ($this as $index => $value) {
-      if ($iterator($value, $index)) {
-        $result = $value;
-        break;
-      }
+      if ($iterator($value, $index))
+        return $value;
     }
-    return $result;
+    return null;
   }
+
   public function find($iterator) { return $this->detect($iterator); }
 
   public function select($iterator) {
@@ -157,7 +156,9 @@ class RArray extends ArrayObject {
     }
     return $results;
   }
+
   public function findAll($iterator) { return $this->select($iterator); }
+
   public function filter($iterator) { return $this->select($iterator); }
 
   public function grep($filter, $iterator = null) {
@@ -168,14 +169,13 @@ class RArray extends ArrayObject {
   }
 
   public function has($object) {
-    $found = false;
+    // use in_array()
+    // return in_array($object, (array)$this);
     foreach ($this as $index => $value) {
-      if ($value == $object) {
-        $found = true;
-        break;
-      }
+      if ($value == $object)
+        return true;
     }
-    return $found;
+    return false;
   }
 
   public function inject($memo, $iterator) {
