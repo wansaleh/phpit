@@ -1,7 +1,7 @@
 # PHPit!
 
 This library is a simple port of the beautiful syntax of Ruby.
-PHPit! drew inspiration from [Prototype Javascript Library](www.prototypejs.com) which ported [Ruby's](www.ruby-lang.org) [Enumerable](http://ruby-doc.org/core/classes/Enumerable.html) functions to Javascript.
+PHPit! drew inspiration from [Prototype Javascript Library](http://www.prototypejs.com) which ported [Ruby's](http://www.ruby-lang.org) [Enumerable](http://ruby-doc.org/core/classes/Enumerable.html) functions to Javascript.
 
 # Usage
 
