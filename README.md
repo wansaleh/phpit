@@ -1,7 +1,7 @@
 # PHPit!
 
 This library is a simple port of the beautiful syntax of Ruby.
-PHPit! drew inspiration from [Prototype Javascript Library](www.prototypejs.com) which ported Ruby's Enumerable functions to Javascript.
+PHPit! drew inspiration from [Prototype Javascript Library](www.prototypejs.com) which ported [Ruby's](www.ruby-lang.org) [Enumerable](http://ruby-doc.org/core/classes/Enumerable.html) functions to Javascript.
 
 # Usage
 
@@ -150,3 +150,4 @@ PHP 5.3.0 introduces the lambda style (anonymous) function to be used as a param
 # Discaimer
 
 The creation of this library doesn't mean that PHP by itself can beat Ruby's simplicity.
+Copyright is for losers. Brainchild of Prototype JS Framework. Goodness of Ruby. I implemented them in PHP.
